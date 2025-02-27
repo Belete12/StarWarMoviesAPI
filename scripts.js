@@ -13,5 +13,7 @@ async function getStarWars() {
     } catch (error) {
       console.error(error);
     }
-  }
+  } // end function
   
+
+  getStarWars();
