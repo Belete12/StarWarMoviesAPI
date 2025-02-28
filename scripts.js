@@ -3,7 +3,6 @@
 // Parse the JSON data from the response
 // Extract the list of movies
 
-
 async function getStarWars() {
     try {     
       const response = await fetch('https://swapi.dev/api/films/');
