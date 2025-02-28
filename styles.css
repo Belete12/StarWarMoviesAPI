@@ -16,3 +16,32 @@ td,  th {
     border: 1px solid #ddd;
     padding: 8px;
   }  
+
+
+
+ #movieList{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+
+}
+
+#movieList td, #movieList th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#movieList th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+ }
+ #movieList tr:hover {background-color: #ddd;}
+ #movieList :active {background-color:aliceblue}
+
+ a{
+  margin-right: 30px;
+}
