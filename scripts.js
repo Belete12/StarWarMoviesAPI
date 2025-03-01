@@ -11,7 +11,7 @@ async function getStarWars() {
 
       movies.forEach(movie => {
         var table = document.createElement('thead');
-        table.innerHTML = `<tr><td>${movie.title} </td> <td>${movie.title} </td> </tr>`
+        table.innerHTML = `<tr><td>${movie.title} </td> <td>${movie.episode_id} </td> <td>${movie.director} </td> <td>${movie.producer} </td></tr>`
         document.getElementById('movieList').appendChild(table);
       });
     } catch (error) {

@@ -1,5 +1,31 @@
 body{
-    background-color:#ffa8B6;
+    background-color: white;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+p, li{
+  float: center;
+  display: block;
+  text-align: center;
+  padding: 14px 16px; 
+  font-size: 17px; 
 }
 
 h1{
@@ -9,22 +35,13 @@ h1{
 th {
     padding: 0 15px;
     width: 15%;
-    
+    text-align: center;
   }
-
-
-td,  th {
-    border: 1px solid #ddd;
-    padding: 8px;
-  }  
-
-
 
  #movieList{
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
-
 
 }
 
@@ -38,11 +55,9 @@ td,  th {
   padding-bottom: 12px;
   text-align: left;
   background-color: #04AA6D;
-  color: white;
+  color: #fff;
+  
  }
  #movieList tr:hover {background-color: #ddd;}
  #movieList :active {background-color:aliceblue}
 
- a{
-  margin-right: 30px;
-}
