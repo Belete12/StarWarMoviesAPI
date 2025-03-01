@@ -11,14 +11,19 @@
     
 </head>
 <body>
-
     <nav id="navigation">
-        <div class="topnav" id="myTopnav">
+        <div class="topnav">
             <a href="./home.html"> Home </a>
             <a href="./index.html"> FilmList </a>
         </div>
     </nav>
     <h1> Starwar Films Character List</h1>
+
+    <form class="search" >
+        <input type="text" id="SearchName" onkeyup="displayText()"  
+        placeholder="Search by ActorName .." />
+    </form>
+
 <table id="movieList"> 
     <thead>
         <tr>
